@@ -36,3 +36,21 @@ pip install package_name
 2. On Jupyter Notebook:
 import sys
 !{sys.executable} -m pip install package_name
+
+## Installing pyAudio package:
+This step is an important one. While most packages load easily, pyAudio when installed throws error for some system as it is unable to find the required .whl files needed to successfully listen to the audio.
+
+In case you get the same error on trying any of the first two ways of installing packeges, follow the below steps and you will be fine.
+
+1. Identify whether your system has a 32-bit python or a 64-bit python. To do this go to run and type cmd. Then just type 'python' and press enter. You will find the details.
+
+2. Then use the details to identify the right .whl file from the link - https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio and download it. Go the folder where you have it saved and copy the file.
+Thanks to Christoph Gohlke, Laboratory for Fluorescence Dynamics, University of California, Irvine.
+
+3. Once done, go to run and type - %appdata% and press enter. Go back in the folder hierarchy by a step and then paste the file from step 2.
+
+4. Use the address bar to copy the path. The path would be like - folder name/<file_name>
+
+5. Pick the any of the two steps to install a package and paste the entire path from step 4 as the package_name
+
+6. Run: import pyaudio
