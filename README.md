@@ -24,8 +24,15 @@ We might be on the verge of having too many screens around us. It seems like eve
 TensorFlow recently released the Speech Commands Datasets. It includes 65,000 one-second long utterances of 30 short words, by thousands of different people. We’ll build a speech recognition system that understands simple spoken commands.
 
 ## Important steps to repeat the exercise:
+
 ### Packages needed
 1. SpeechRecognition
 2. pyAudio
 
 ### How to install packages in python
+1. Using cmd:
+pip install package_name
+
+2. On Jupyter Notebook:
+import sys
+!{sys.executable} -m pip install package_name
