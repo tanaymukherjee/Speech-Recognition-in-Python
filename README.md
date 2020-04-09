@@ -22,3 +22,10 @@ Let’s understand the problem statement of our project before we move into the 
 We might be on the verge of having too many screens around us. It seems like every day, new versions of common objects are “re-invented” with built-in wifi and bright touchscreens. A promising antidote to our screen addiction is voice interfaces. 
 
 TensorFlow recently released the Speech Commands Datasets. It includes 65,000 one-second long utterances of 30 short words, by thousands of different people. We’ll build a speech recognition system that understands simple spoken commands.
+
+## Important steps to repeat the exercise:
+### Packages needed
+1. SpeechRecognition
+2. pyAudio
+
+### How to install packages in python
